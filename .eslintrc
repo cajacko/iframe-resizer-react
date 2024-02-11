@@ -12,11 +12,7 @@
     "browser": true,
     "es6": true
   },
-  "plugins": [
-    "react",
-    "react-hooks",
-    "prettier"
-  ],
+  "plugins": ["react", "react-hooks", "prettier"],
   "parserOptions": {
     "ecmaVersion": 2019,
     "impliedStrict": true,
@@ -28,7 +24,7 @@
   "rules": {
     "jsx-a11y/label-has-associated-control": 0,
     "jsx-a11y/control-has-associated-label": 0,
-    "react/prop-types": [2, { "ignore": ["forwardRef"] }],
+    "react/prop-types": 0,
     "react/jsx-props-no-spreading": 0,
     "react/forbid-prop-types": 0,
     "react-hooks/rules-of-hooks": "error",
@@ -48,6 +44,6 @@
       }
     ],
     "unicorn/consistent-function-scoping": 0,
-    "unicorn/prevent-abbreviations": 0,
+    "unicorn/prevent-abbreviations": 0
   }
 }
